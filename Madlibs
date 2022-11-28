@@ -1,0 +1,7 @@
+verb1 = input("Give a verb:")
+place = input("Give a place:")
+adj1 = input("Give an adjective:")
+noun = input("Give a noun:")
+
+print("Our school food is very " + adj1 + ". Sometimes I like to " + verb1 +" my spaghetti in the " + place + \
+". I hope that changes because it smells like " + noun + " there.")
