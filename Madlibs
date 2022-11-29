@@ -1,16 +1,62 @@
-female_name = input("Female name:")
-adj1 = input("Adjective:")
-plural_noun = input("Plural noun:")
-verb = input("Verb:")
-noun = input("Noun:")
-colour = input("Colour:")
-adj2 = input("Adjective:")
-animal = input("Animal:")
-noun2 = input("Noun:")
-body_part = input("Body part:")
-verb2 = input("Verb:")
+male_name = input("Female name:")
+if female_name.isnumeric() :
+      print("That\'s not a name!")
+      female_name = input("Female name:")
+      
 
-print (f"{female_name} was being chased down the street by two {adj1} {plural_noun}. She was starting to get out of breath so she decided to {verb} a {noun}. \
+adj1 = input("Adjective:")
+if adj1.isnumeric() :
+      print("That\'s not an adjective!")
+      adj1 = input("Adjective:")
+
+plural_noun = input("Plural noun:")
+if plural_noun.isnumeric():
+      print("That\'s not a noun!")
+      plural_noun = input("Plural noun:")
+
+verb1 = input("Verb:")
+if verb1.isnumeric():
+      print("That\'s not a verb!")
+      verb1= input("Verb:")
+    
+noun1 = input("Noun:")
+if noun1.isnumeric():
+      print("That\'s not a noun!")
+      noun1 = input("Noun:")
+
+colour = input("Colour:")
+if colour.isnumeric():
+      print("That\'s not a colour!")
+      colour = input("Colour:")
+
+adj2 = input("Adjective:")
+if adj2.isnumeric() :
+      print("That\'s not an adjective!")
+      adj2 = input("Adjective:")
+     
+animal = input("Animal:")
+if animal.isnumeric() :
+      print("That\'s not an animal!")
+      animal = input("Animal:")
+
+noun2 = input("Noun:")
+if noun2.isnumeric():
+      print("That\'s not a noun!")
+      noun2 = input("Noun:")
+
+body_part = input("Body part:")
+if body_part.isnumeric():
+      print("That\'s not a body part!")
+      body_part = input("Body part:")
+
+verb2 = input("Verb:")
+if verb2.isnumeric() :
+      print("That\'s not a verb!")
+      verb2 = input("Verb:")
+
+
+print (f"{female_name} was being chased down the street by two {adj1} {plural_noun}. She was starting to get out of breath so she decided to {verb1} a {noun1}. \
 Somehow, that worked! They stopped chasing her. But now she had an even bigger \
 problem. Out of nowhere, a {colour} {adj2} {animal} appeared. She saw a {noun2} near her and hit the {animal} in the {body_part}. But that did not work.\
 The {animal} started to {verb2} so {female_name} had to {verb2} too! What a wierd story.")
+
