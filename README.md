@@ -5,6 +5,7 @@ In the repository you will find 3 files refering to 3 begginer friendly projects
 #### 1. Rock, Paper, Scissors
 #### 2. Madlibs
 #### 3. Random Number Guesses
+#### 4. Wordle Guesser 
 
 Hope you enjoy!
 
