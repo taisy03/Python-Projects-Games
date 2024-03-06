@@ -1,6 +1,9 @@
-# Python-Projects
+# Python Projects: Games
+Hello, 
 
-Hi all!
-This is a collection of all the python projects I have done in the past few years. 
+In the repository you will find 3 files refering to 3 begginer friendly projects you can try out in Python: 
+### 1. Rock, Paper, Scissors
+### 2. Madlibs
+### 3. Random Number Guesses
 
 Hope you enjoy!
